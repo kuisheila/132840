@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connecting Donations</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./foster.png" type="image/+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Connecting Donations</a>
+      </h1>
+
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">CONNECTOR</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Service</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="#TESTIMONIALS" class="navbar-link" data-nav-link>
+              <span>Testimonials</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+       
+        <div class="container">
+          <button class="btn btn-primary" onclick="redirectToRegister()">Sign up</button>
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+        </div>
+  
+      <script>
+          function redirectToLogin() {
+              window.location.href = "login.php"; // Replace with your login page URL
+          }
+      </script>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./images/subtitle-img-white.png" width="32" height="7" alt="Wavy line">
+
+            <span>Welcome to Connector</span>
+          </p>
+
+          <h2 class="h1 hero-title">
+            Bridging the gap <strong>For brighter futures</strong>
+          </h2>
+
+          <p class="hero-text">
+            Changing little lives, one act of kindness at a time.
+          </p>
+
+          <div class="container">
+            <button class="btn btn-primary" onclick="redirectToRegister()">Join</button>
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          </div>
+    
+        <script>
+            function redirectToRegister() {
+                window.location.href = "Register.php"; // Replace with your login page URL
+            }
+        </script>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title"></h3>
+
+                <p class="item-text">
+                  Empower Hope, Ignite Change: Connecting Donors to Brighten Children's Futures.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title"> </h3>
+
+                <p class="item-text">
+                  Uniting Hearts, Transforming Lives: Your Click, Their Brighter Tomorrow.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title"> </h3>
+
+                <p class="item-text">
+                  From Your Heart to Their Home: Bridging Generosity for a Better Childhood.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title"></h3>
+
+                <p class="item-text">
+                  Gifts That Grow: Nurturing Dreams, One Donation at a Time.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+
+            <h2 class="deco-title">About Us</h2>
+
+            
+            <div class="banner-row">
+
+              <div class="banner-col">
+                <img src="./images/4.jpg" width="315" height="380" loading="lazy" alt="Tiger"
+                  class="about-img w-100">
+
+                <img src="./images/5.jpg" width="386" height="250" loading="lazy" alt="Panda"
+                  class="about-img about-img-2 w-100">
+              </div>
+
+              <div class="banner-col">
+                <img src="./images/6.jpg" width="250" height="277" loading="lazy" alt="Elephant"
+                  class="about-img about-img-3 w-100">
+
+                <img src="./images/7.jpg" width="315" height="380" loading="lazy" alt="Deer"
+                  class="about-img w-100">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">
+              <img src="./images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+              <span>Why Choose Us</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              Empowering children<strong>Transforming lives</strong>
+            </h2>
+
+            <ul class="tab-nav">
+
+              <li>
+                <button class="tab-btn active">Our Mission</button>
+              </li>
+
+
+            </ul>
+
+            <div class="tab-content">
+
+              <p class="section-text">
+                We aim to bridge this gap of  children's homes face resource limitations and struggle to provide the level of care and support that these children need by 
+                by connecting children's homes with generous donors by providing:
+              </p>
+
+              <ul class="tab-list">
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Foods</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Education</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Water</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Medical</p>
+                </li>
+
+              </ul>
+
+              
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+   <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <div class="cta-content">
+            <h2 class="h2 section-title">Patnering with Kenyan Homes</h2>
+            
+            
+              <div class="container">
+                <button class="btn btn-outline" onclick="redirectToRegister()">Become a Partner</button>
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </div>
+        
+            <script>
+                function redirectToRegister() {
+                    window.location.href = "Register.php"; // Replace with your login page URL
+                }
+            </script>
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="./images/3.jpg" width="520" height="228" loading="lazy" alt="Fox"
+              class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" style="background-image: url('./images/service-map.png')">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>What We Do</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            Connecting Compassion, Creating Futures<strong>Be the Change They Deserve</strong>
+          </h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Exposure</h3>
+
+                <p class="card-text">
+                  allow donors to search and browse through various children's homes or charitable organizations.
+                </p>
+
+                <a href="https://benjaminperksblog.home.blog/2019/08/19/because-i-grew-up-in-an-orphanage/" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Communication</h3>
+
+                <p class="card-text">
+                  facilitate communication between donors and the children's homes
+                </p>
+
+                <a href="https://www.heartfororphans.com/en/blog/niksstory" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="flower-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Share</h3>
+
+                <p class="card-text">
+                  allow donors to share their experiences with the platform and the impact of their contributions.
+                </p>
+
+                <a href="https://beyondtheorphanage.org/the-power-of-picture-books/" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Connect</h3>
+
+                <p class="card-text">
+                Provide a centralized platfrom for donora and homes to meet
+                </p>
+
+                <a href="https://cohafrica.org/blog/category/faces-of-children-of-hope/" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="testi">
+
+        <div class="testi-content">
+
+          <p class="section-subtitle">
+            <img src="./images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>Our Testimonials</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            What People Say About <strong>Our Organization</strong>
+          </h2>
+
+          <div class="testi-card">
+
+           
+
+            <div>
+              <blockquote class="testi-text">
+                Discovering DonorConnect was life-changing. The user-friendly platform aligned with my values,
+                 making it easy to support children's homes. Seamless donations, transparent fund usage, and personal
+                  communication create a meaningful connection. DonorConnect, a bridge to positive change, is recommended
+                   for those seeking impactful philanthropy. Gratitude for a rewarding journey.
+
+              </blockquote>
+
+              <h3 class="testi-name">Sheila Kariuki</h3>
+
+              <p class="testi-title">Kenyan citizen</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <figure class="testi-banner">
+          <img src="./images/1.jpg" width="960" height="846" loading="lazy" alt="Rhinoceros"
+            class="img-cover">
+        </figure>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PARTNER
+      -->
+
+      <section class="section partner">
+        <div class="container">
+          <h2 class="h2 section-title">
+            In partnership <strong>with</strong>
+          </h2>
+          <a href="#" class="partner-logo">
+            <img src="./images/part1.jpg" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="gray">
+
+            <img src="./images/part1.jpg" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="color">
+          </a>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #INSTA POST
+      -->
+
+      <section class="insta-post">
+
+        <ul class="insta-post-list">
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./images/8.jpg" width="320" height="300" loading="lazy" alt="Lion"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./images/9.jpg" width="320" height="300" loading="lazy" alt="Deer"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./images/10.jpg" width="320" height="300" loading="lazy" alt="Wild Bear"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./images/11.jpg" width="320" height="300" loading="lazy" alt="Deer"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./images/12.jpg" width="320" height="300" loading="lazy" alt="Horses"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Terms of use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy & Policy</a>
+        </li>
+
+      </ul>
+
+      <p class="copyright">
+        BY SHEILA. All Rights Reserved.
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>

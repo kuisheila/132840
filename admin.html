@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Welcome to the Admin Dashboard</h1>
+</header>
+
+<!-- Navigation Menu -->
+<nav>
+    <ul>
+        <li><a href="#createEditDelete">Create, Edit, and Delete Accounts</a></li>
+        <li><a href="#reportingAnalytics">Reporting and Analytics</a></li>
+        <li><a href="#generateAnalyzeReports">Generate and Analyze Usage Reports</a></li>
+        <li><a href="#trackEngagement">Track Donor and Children's Home Engagement</a></li>
+        <!-- Add more menu items as needed -->
+    </ul>
+</nav>
+
+<!-- Main Content -->
+<main>
+
+    <!-- Section: Create, Edit, and Delete Accounts -->
+    <section id="createEditDelete">
+        <h2>Create, Edit, and Delete Accounts</h2>
+        <!-- Form to create, edit, and delete accounts -->
+        <form method="post" action="#">
+            <!-- Include form fields for creating, editing, and deleting accounts -->
+            <!-- Example: Account Type, Account Data, Action (Create, Edit, Delete) -->
+
+            <label for="accountType">Account Type:</label>
+            <input type="text" name="accountType" required>
+
+            <label for="accountData">Account Data:</label>
+            <input type="text" name="accountData" required>
+
+            <label for="action">Action:</label>
+            <select name="action">
+                <option value="createAccount">Create Account</option>
+                <option value="editAccount">Edit Account</option>
+                <option value="deleteAccount">Delete Account</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Section: Reporting and Analytics -->
+    <section id="reportingAnalytics">
+        <h2>Reporting and Analytics</h2>
+        <!-- Include content for reporting and analytics -->
+        <!-- Example: Generate and analyze usage reports -->
+        <form method="post" action="#">
+            <input type="hidden" name="action" value="generateUsageReport">
+            <input type="submit" value="Generate Usage Report">
+        </form>
+    </section>
+
+    <!-- Section: Generate and Analyze Usage Reports -->
+    <section id="generateAnalyzeReports">
+        <h2>Generate and Analyze Usage Reports</h2>
+        <!-- Include content for generating and analyzing reports -->
+    </section>
+
+    <!-- Section: Track Engagement -->
+    <section id="trackEngagement">
+        <h2>Track Donor and Children's Home Engagement</h2>
+        <!-- Include content for tracking engagement -->
+        <form method="post" action="#">
+            <input type="hidden" name="action" value="trackEngagement">
+            <label for="userId">User ID:</label>
+            <input type="text" name="userId" required>
+
+            <label for="actionType">Action Type:</label>
+            <input type="text" name="actionType" required>
+
+            <input type="submit" value="Track Engagement">
+        </form>
+    </section>
+
+    <!-- Add more sections as needed -->
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; <?php echo date("Y"); ?> Your Company Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
